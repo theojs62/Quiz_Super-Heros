@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz Superheros</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    
+    <h1>
+      <span>Quizz</span>
+      Super-Héros
+    </h1>
+
+    <div class="global-container">
+
+      <form class="quiz-form">
+        <div class="question-block">
+          <h4>Dans quel film, un super-héros doit affronter Namor ?</h4>
+
+          <div>
+            <input type="radio" id="Clovis" name="q1" value="a" checked />
+            <label for="Clovis">Iron man 3</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Lincoln" name="q1" value="b" />
+            <label for="Lincoln">Black panther 2</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Bonaparte" name="q1" value="c" />
+            <label for="Bonaparte">Deadpool</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>Lequel de ces personnages a été créé en premier ?
+          </h4>
+          <div>
+            <input type="radio" id="date1" name="q2" value="a" checked />
+            <label for="date1">Wonder woman</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date2" name="q2" value="b" />
+            <label for="date2">Hulk</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date3" name="q2" value="c" />
+            <label for="date3">Captain America</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>Combien de fois Hugh Jackman a-t-il incarné Wolverine au cinéma ?
+          </h4>
+          <div>
+            <input type="radio" id="date4" name="q3" value="a" checked />
+            <label for="date4">9 fois</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date5" name="q3" value="b" />
+            <label for="date5">8 fois</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date6" name="q3" value="c" />
+            <label for="date6">7 fois</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>Qui dirige à l’origine le S.H.I.E.L.D. ?</h4>
+
+          <div>
+            <input type="radio" id="Ljubljana" name="q4" value="a" checked />
+            <label for="Ljubljana">Carol Danvers</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Belgrade" name="q4" value="b" />
+            <label for="Belgrade">Steve Rogers</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Bratislava" name="q4" value="c" />
+            <label for="Bratislava">Nick Fury</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>Quel est le pays africain fictif du film Black Panther ?</h4>
+          <div>
+            <input type="radio" id="m1" name="q5" value="a" checked />
+            <label for="m1">Wakanda</label>
+          </div>
+
+          <div>
+            <input type="radio" id="m2" name="q5" value="b" />
+            <label for="m2">N'Jadaka</label>
+          </div>
+
+          <div>
+            <input type="radio" id="m3" name="q5" value="c" />
+            <label for="m3">Madagascar</label>
+          </div>
+        </div>
+
+        <button type="submit">VALIDER ✔️</button>
+      </form>
+
+      <div class="results">
+        <h2>Cliquez sur <span>valider</span> pour voir les <span>résultats.</span></h2>
+        <p class="mark"></p>
+        <p class="help"></p>
+      </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
